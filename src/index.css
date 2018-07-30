@@ -1,0 +1,43 @@
+body {
+  margin: 2%;
+  padding: 0;
+  font-family: cursive;
+}
+.section {
+  margin: 10px;
+  padding: 15px;
+}
+.section-content {
+  display: flex;
+}
+.book-box {
+  align-content: center;
+  box-shadow: 10px 10px 50px grey;
+  margin: 10px;
+  padding: 5px;
+}
+.book-cover {
+  width: 200px;
+  height: 280px;
+  background-size: cover; 
+}
+.book-info {
+  width: 180px;
+  height: 150px;
+}
+.book-shelf { 
+  background-image: url('./down-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25px;
+  cursor: pointer;
+}
+.book-category {
+  padding: 20px;
+  width: 180px;
+}
+.add-book {
+  margin-left: 30%;
+  margin-top: 10%; 
+  font-size: 20px;
+}
